@@ -1,0 +1,35 @@
+header #date-time{
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    font-size: 20px;
+    background-color: bisque;
+}
+#center-this{
+    display: flex;
+    justify-content: center;
+    height: 60px;
+    background-color: blanchedalmond;
+}
+.textcenter{
+    height: 200px;
+}
+.row{
+    height: 50px;
+    padding: 5px;
+    border: solid black 2px;
+
+}
+.dark-grey{
+    background-color: #999;
+    border-radius: 5px;
+}
+.save-icon{
+    background-color: lightblue;
+    border-radius: 5px;
+}
+.input-fields{
+    width: 100%;
+    text-decoration: none;
+    /* border: solid white; */
+}

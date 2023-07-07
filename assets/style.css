@@ -1,3 +1,7 @@
+#green{
+    background-color: green ;
+}
+
 header #date-time{
     display: flex;
     justify-content: center;
@@ -31,5 +35,5 @@ header #date-time{
 .input-fields{
     width: 100%;
     text-decoration: none;
-    /* border: solid white; */
+    border: solid white;
 }

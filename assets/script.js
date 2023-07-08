@@ -10,6 +10,7 @@ var fiveTime = $("#5pm-time-display");
 var currentTime = $("#date-time");
 var btn = $("#button-1");
 var input = $("#user-input-1");
+var input2 = $("#user-input-2");
 var save = $("#button-1");
 var rowOne = $('#row-1')
 
@@ -168,9 +169,6 @@ isItTime7();
 isItTime8();
 isItTime9();
 
-function save() {
-  
-}
 
 function get() {
     var storedItem = localStorage.getItem("storedItem");
@@ -182,8 +180,8 @@ function get() {
              .children("#user-input-1")
             .text(localStorage.getItem("storedItem"));
         $("#row-2")
-            .children("#user-input-1")
-            .text(localStorage.getItem("storedItem"));
+            .children("#user-input-2")
+            .text(localStorage.getItem("storedItem10am"));
         $("#row-3")
             .children("#user-input-1")
             .text(localStorage.getItem("storedItem"));
@@ -217,6 +215,14 @@ button.addEventListener("click", function () {
     localStorage.setItem("storedItem", item);
     input.val(item);
         console.log(item);
+});
+const button2 = document.querySelector("#button-2");
+button2.addEventListener("click", function () {
+     var item2 = input2.val();
+    localStorage.setItem("storedItem2", item2);
+    input2.val(item2);
+    console.log(item2);
+
 });
 
 get();

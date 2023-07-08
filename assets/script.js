@@ -31,15 +31,15 @@ setInterval(displayTime, 1000);
 function isItTime() {
     var time = dayjs().format("ha");
     if (time === "9am") {
-        document.querySelector("#row-1").style.backgroundColor = "red";
+        document.querySelector(".row1").style.backgroundColor = "red";
         console.log("its 9");
     } else if
         (time < "9am"){
-        document.querySelector("#row-1").style.backgroundColor = "grey";
+        document.querySelector(".row1").style.backgroundColor = "grey";
         console.log("its past 9")
     } else {
          (time > "9am")
-          document.querySelector("#row-1").style.backgroundColor = "green";
+          document.querySelector(".row1").style.backgroundColor = "green";
         console.log("not 9 yet");
     }
    
@@ -48,14 +48,14 @@ function isItTime() {
 function isItTime2() {
     var time = dayjs().format("ha");
     if (time === "10am") {
-        document.querySelector("#row-2").style.backgroundColor = "red";
+        document.querySelector(".row2").style.backgroundColor = "red";
         console.log("its 10");
     } else if (time > "10am") {
-        document.querySelector("#row-2").style.backgroundColor = "grey";
+        document.querySelector(".row2").style.backgroundColor = "grey";
         console.log("its past 10");
     } else {
         (time < "10am");
-        document.querySelector("#row-2").style.backgroundColor = "green";
+        document.querySelector(".row2").style.backgroundColor = "green";
         console.log("not 10 yet");
     }
 }
@@ -63,14 +63,14 @@ function isItTime2() {
 function isItTime3() {
     var time = dayjs().format("ha");
     if (time === "11am") {
-        document.querySelector("#row-3").style.backgroundColor = "red";
+        document.querySelector(".row3").style.backgroundColor = "red";
         console.log("its 11");
     } else if (time > "11am") {
-        document.querySelector("#row-3").style.backgroundColor = "grey";
+        document.querySelector(".row3").style.backgroundColor = "grey";
         console.log("its past 11");
     } else {
         (time < "11am");
-        document.querySelector("#row-3").style.backgroundColor = "green";
+        document.querySelector(".row3").style.backgroundColor = "green";
         console.log("not 11 yet");
     }
 }
@@ -78,14 +78,14 @@ function isItTime3() {
 function isItTime4() {
     var time = dayjs().format("ha");
     if (time === "12pm") {
-        document.querySelector("#row-4").style.backgroundColor = "red";
+        document.querySelector(".row4").style.backgroundColor = "red";
         console.log("its 12");
     } else if (time > "12pm") {
-        document.querySelector("#row-4").style.backgroundColor = "grey";
+        document.querySelector(".row4").style.backgroundColor = "grey";
         console.log("its past 12");
     } else {
         (time < "12pm");
-        document.querySelector("#row-4").style.backgroundColor = "green";
+        document.querySelector(".row4").style.backgroundColor = "green";
         console.log("not 12 yet");
     }
 }
@@ -93,14 +93,14 @@ function isItTime4() {
 function isItTime5() {
     var time = dayjs().format("ha");
     if (time === "1pm") {
-        document.querySelector("#row-5").style.backgroundColor = "red";
+        document.querySelector(".row5").style.backgroundColor = "red";
         console.log("its 1");
     } else if (time > "1pm") {
-        document.querySelector("#row-5").style.backgroundColor = "grey";
+        document.querySelector(".row5").style.backgroundColor = "grey";
         console.log("its past 1");
     } else {
         (time < "1pm");
-        document.querySelector("#row-5").style.backgroundColor = "green";
+        document.querySelector(".row5").style.backgroundColor = "green";
         console.log("not 1 yet");
     }
 }
@@ -108,14 +108,14 @@ function isItTime5() {
 function isItTime6() {
     var time = dayjs().format("ha");
     if (time === "2pm") {
-        document.querySelector("#row-6").style.backgroundColor = "red";
+        document.querySelector(".row6").style.backgroundColor = "red";
         console.log("its 2");
     } else if (time > "2pm") {
-        document.querySelector("#row-6").style.backgroundColor = "grey";
+        document.querySelector(".row6").style.backgroundColor = "grey";
         console.log("its past 2");
     } else {
         (time < "2pm");
-        document.querySelector("#row-6").style.backgroundColor = "green";
+        document.querySelector(".row6").style.backgroundColor = "green";
         console.log("not 2 yet");
     }
 }
@@ -123,14 +123,14 @@ function isItTime6() {
 function isItTime7() {
     var time = dayjs().format("ha");
     if (time === "3pm") {
-        document.querySelector("#row-7").style.backgroundColor = "red";
+        document.querySelector(".row7").style.backgroundColor = "red";
         console.log("its 3");
     } else if (time > "3pm") {
-        document.querySelector("#row-7").style.backgroundColor = "grey";
+        document.querySelector(".row7").style.backgroundColor = "grey";
         console.log("its past 3");
     } else {
         time < "3pm";
-        document.querySelector("#row-7").style.backgroundColor = "green";
+        document.querySelector(".row7").style.backgroundColor = "green";
         console.log("not 3 yet");
     }
 }
@@ -138,14 +138,14 @@ function isItTime7() {
 function isItTime8() {
     var time = dayjs().format("ha");
     if (time === "4pm") {
-        document.querySelector("#row-8").style.backgroundColor = "red";
+        document.querySelector(".row8").style.backgroundColor = "red";
         console.log("its 4");
     } else if (time > "4pm") {
-        document.querySelector("#row-8").style.backgroundColor = "grey";
+        document.querySelector(".row8").style.backgroundColor = "grey";
         console.log("its past 8");
     } else {
         time < "4pm";
-        document.querySelector("#row-8").style.backgroundColor = "green";
+        document.querySelector(".row8").style.backgroundColor = "green";
         console.log("not 4 yet");
     }
 }
@@ -153,14 +153,14 @@ function isItTime8() {
 function isItTime9() {
     var time = dayjs().format("ha");
     if (time === "5pm") {
-        document.querySelector("#row-9").style.backgroundColor = "red";
+        document.querySelector(".row9").style.backgroundColor = "red";
         console.log("its 5");
     } else if (time > "5pm") {
-        document.querySelector("#row-9").style.backgroundColor = "grey";
+        document.querySelector(".row9").style.backgroundColor = "grey";
         console.log("its past 5");
     } else {
         time < "5pm";
-        document.querySelector("#row-9").style.backgroundColor = "green";
+        document.querySelector(".row9").style.backgroundColor = "green";
         console.log("not 5 yet");
     }
 }

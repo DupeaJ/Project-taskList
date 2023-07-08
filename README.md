@@ -17,7 +17,8 @@ You can type to do Items in the section with the correct time then click the sav
 
 ## Credits
 
-N/A
+Font Awesome for providing floppy disk image
+Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc.
 
 ## License
 

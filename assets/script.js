@@ -35,6 +35,7 @@ function isItTime() {
           document.querySelector("#row-1").style.backgroundColor = "green";
         console.log("not 9 yet");
     }
+   
 }
 
 function isItTime2() {
@@ -168,10 +169,7 @@ isItTime8();
 isItTime9();
 
 function save() {
-    var item = input.val();
-    localStorage.setItem("storedItem", item);
-    input.val(item);
-    console.log(item);
+  
 }
 
 function get() {
@@ -180,15 +178,45 @@ function get() {
     if (storedItem) {
         console.log("stored Item exists");
           storedItem = input.textContent;
-        
+         $("#row-1")
+             .children("#user-input-1")
+            .text(localStorage.getItem("storedItem"));
+        $("#row-2")
+            .children("#user-input-1")
+            .text(localStorage.getItem("storedItem"));
+        $("#row-3")
+            .children("#user-input-1")
+            .text(localStorage.getItem("storedItem"));
+        $("#row-4")
+            .children("#user-input-1")
+            .text(localStorage.getItem("storedItem"));
+        $("#row-5")
+            .children("#user-input-1")
+            .text(localStorage.getItem("storedItem"));
+        $("#row-6")
+            .children("#user-input-1")
+            .text(localStorage.getItem("storedItem"));
+        $("#row-7")
+            .children("#user-input-1")
+            .text(localStorage.getItem("storedItem"));
+        $("#row-8")
+            .children("#user-input-1")
+            .text(localStorage.getItem("storedItem"));
+            $("#row-9")
+                .children("#user-input-1")
+                .text(localStorage.getItem("storedItem"));
+
     } else {
         console.log("stored item not found");
     }
 }
 
 const button = document.querySelector("#button-1");
-button.addEventListener("click", function (e) {
-    console.log(e);
+button.addEventListener("click", function () {
+     var item = input.val();
+    localStorage.setItem("storedItem", item);
+    input.val(item);
+        console.log(item);
 });
 
 get();

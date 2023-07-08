@@ -19,18 +19,28 @@ header #date-time{
     height: 200px;
 }
 .row{
-    height: 50px;
+    height: 60px;
     padding: 5px;
     border: solid black 2px;
+    border-radius: 6px;
 
 }
 .dark-grey{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #999;
     border-radius: 5px;
 }
 .save-icon{
     background-color: lightblue;
     border-radius: 5px;
+    height:100% ;
+}
+div.save-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .input-fields{
     

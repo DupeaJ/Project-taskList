@@ -1,18 +1,6 @@
-var nineTime = $("#9am-time-display");
-var tenTime = $("#10am-time-display");
-var elevenTime = $("#11am-time-display");
-var twelveTime = $("#12pm-time-display");
-var oneTime = $("#1pm-time-display");
-var twoTime = $("#2pm-time-display");
-var threeTime = $("#3pm-time-display");
-var fourTime = $("#4pm-time-display");
-var fiveTime = $("#5pm-time-display");
 var currentTime = $("#date-time");
-var btn = $("#button-1");
 var input = $("#user-input-1");
-var save = $("#button-1");
-var rowOne = $('#row-1');
-var input2 = $('#user-input-2')
+var input2 = $('#user-input-2');
 var input3 = $('#user-input-3');
 var input4 = $('#user-input-4');
 var input5 = $("#user-input-5");
@@ -20,6 +8,7 @@ var input6 = $("#user-input-6");
 var input7 = $("#user-input-7");
 var input8 = $("#user-input-8");
 var input9 = $("#user-input-9");
+
 function displayTime() {
     var rightNow = dayjs().format("dddd, MMM, d [at] hh:mm:ss a");
     currentTime.text(rightNow);
@@ -219,6 +208,7 @@ button.addEventListener("click", function () {
     input.val(item);
         console.log(item);
 });
+
 const button2 = document.querySelector("#button-2");
 button2.addEventListener("click", function () {
      var item2 = input2.val();
@@ -227,42 +217,49 @@ button2.addEventListener("click", function () {
     console.log(item2);
 
 });
+
 const button3 = document.querySelector("#button-3");
 button3.addEventListener("click", function () {
     var item3 = input3.val();
     localStorage.setItem("storedItem3", item3);
     input3.val(item3);
 });
+
 const button4 = document.querySelector("#button-4");
 button4.addEventListener("click", function () {
     var item4 = input4.val();
     localStorage.setItem("storedItem4", item4);
     input4.val(item4);
 });
+
 const button5 = document.querySelector("#button-5");
 button5.addEventListener("click", function () {
     var item5 = input5.val();
     localStorage.setItem("storedItem5", item5);
     input5.val(item5);5
 });
+
 const button6 = document.querySelector("#button-6");
 button6.addEventListener("click", function () {
     var item6 = input6.val();
     localStorage.setItem("storedItem6", item6);
     input6.val(item6);
 });
+
 const button7 = document.querySelector("#button-7");
 button7.addEventListener("click", function () {
     var item7 = input7.val();
     localStorage.setItem("storedItem7", item7);
     input7.val(item7);
 });
+
 const button8 = document.querySelector("#button-8");
 button8.addEventListener("click", function () {
     var item8 = input8.val();
     localStorage.setItem("storedItem8", item8);
     input8.val(item8);
 });
+
 const button9 = document.querySelector("#button-9");
 button9.addEventListener("click", function () {
     var item9 = input9.val();

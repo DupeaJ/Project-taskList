@@ -37,3 +37,6 @@ header #date-time{
     text-decoration: none;
     border: solid white;
 }
+textarea{
+    resize: none;
+}

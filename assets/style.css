@@ -48,6 +48,7 @@ div.save-icon{
     border: solid white;
 }
 textarea{
+    font-size: 20px;
     resize: none;
     background: transparent;
     width: 100%;

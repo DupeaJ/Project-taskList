@@ -26,6 +26,7 @@ header #date-time{
 
 }
 .dark-grey{
+    font-size: 20px;
     display: flex;
     justify-content: center;
     align-items: center;

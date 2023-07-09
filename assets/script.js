@@ -10,7 +10,7 @@ var input8 = $("#user-input-8");
 var input9 = $("#user-input-9");
 
 function displayTime() {
-    var rightNow = dayjs().format("dddd, MMM, d [at] hh:mm:ss a");
+    var rightNow = dayjs().format("dddd, MMM, D [at] hh:mm:ss a");
     currentTime.text(rightNow);
 }
 

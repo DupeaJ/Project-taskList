@@ -14,6 +14,8 @@ Available with website link
 
 Website functions with interactions
 You can type to do Items in the section with the correct time then click the save next to it to save it in local storage.
+![ScreenShot](assets/photos/Saved-inputs-tasklist.PNG?raw=true "Task List with saved items in times")
+![ScreenShot](assets/photos/local-storage-saved-tasklist.PNG?raw=true "Task List with saved local storage")
 
 ## Credits
 
